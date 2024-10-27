@@ -1,0 +1,69 @@
+.fondo{
+    background: blue;
+}
+.container{
+    background: cyan;
+    width: 560px;
+    height: 315px;
+    position: absolute;
+
+}
+.imgcontainer{
+    width: 180px;
+    height: auto;
+}
+
+
+.containerpos{
+    width: 200px;
+    height: 200px;
+    background: papayawhip;
+    position: relative;
+    top:20px;
+    left: 20px;
+    z-index:8;
+
+
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background: salmon;
+    position: absolute;
+    right: 10px;
+    z-index:0;
+
+}
+
+.display{
+    background: pink;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+
+}
+a{
+    background: magenta;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+button{
+    background: cyan;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+
+}
+.container1{
+    display: grid;
+    background: ;
+    width: 400px;
+    height: 400px;
+grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.container1 .item: :nth-child(1){
+    background: red;
+    grid-column: 1/2;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <img src="<image src="https://talentotech.gov.co/849/channels-748_logo_talentotech.png">
+            " alt="">       
+        <script src="" async defer></script>
+        <div class="form-container">
+            <label for="">Nombre</label>
+            <input type="text" id="name" placeholder="nombre">
+            <label for="">email</label>
+            <input type="email" name="email" id="email" placeholder="email">
+            <label for="">password</label>
+            <input type="password" name="password" id="password" placeholder="password">
+
+            <button type="submit" class="prymary-button">enviar</button>
+
+        </div>
+    </body>
+</html>
